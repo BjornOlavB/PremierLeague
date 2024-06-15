@@ -1,0 +1,53 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+
+}
+
+.leaderboard {
+  width: 80%;
+  border-collapse: collapse;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard th,
+.leaderboard td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.leaderboard tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leaderboard tr:hover {
+  background-color: #ddd;
+}
+
+.leaderboard th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4a5568;
+  color: white;
+}
+.leaderboard .crest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaderboard .crest img {
+  max-width: 50px;
+  max-height: 50px;
+}
+.edit-button{
+  background-color: #4a5568;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
